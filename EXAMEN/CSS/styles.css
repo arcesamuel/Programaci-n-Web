@@ -1,0 +1,11 @@
+/*Fondo de color del cuerpo para index*/
+body{
+    background-color: papayawhip;
+}
+/*Estilo del H1, H1, Texto y Listas*/
+h1,h2, p, ol {
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    
+}

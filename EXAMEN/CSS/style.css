@@ -1,0 +1,48 @@
+/*Fondo de Color para el fondo de HTML*/
+html{
+    background-color: skyblue;
+}
+/*Fondo de Color para el cuerpo (estrcutura)*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e4e4e4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+/*Estilos y fondo de color para el contorno del Form*/
+form {
+    background-color: #f5f5f5;
+    padding: 50px;
+    width: 420px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    height: 620px;
+    margin: 0 auto;   
+}
+/*Estilos y color para el encabezado del Formulario*/
+form h2{
+    font-size: 25px;
+    color: #1e1e1e;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+/*Fondo del interior del Form*/
+.card-body>input{
+    padding: 17px 15px 17px;
+    width:  350px;
+    border-radius: 35px;
+    background-color: transparent;
+    border: 2px solid #cbcbcb;
+}
+/*Estilos y tamano para los campos dentro del formulario*/
+.card-body-select>input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    padding: 17px;
+    width: 280px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 2px solid #cbcbcb;
+}
